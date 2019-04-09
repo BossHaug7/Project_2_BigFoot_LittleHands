@@ -12,7 +12,7 @@ Database Source:   https://data.world/timothyrenner/bfro-sightings-data
  
 Inspiration Screenshots:
 
-![Data](Images/data.png)
+![Data](images/data.png)
 
 (Images/pic1.png)
 
