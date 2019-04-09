@@ -14,11 +14,12 @@ Inspiration Screenshots:
 
 ![Data](images/data.png)
 
-(Images/pic1.png)
-
-   
-
 Sketch of final presentation: 
 
+![Inspiration Pic 1](images/pic1.png)
+
+![Inspiration Pic 2](images/pic2.png)
+
+![Inspiration Pic 3](images/pic3.png)
  
 Github Repository Link: 
