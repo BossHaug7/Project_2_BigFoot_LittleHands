@@ -9,17 +9,15 @@ Topic Description:  Our group has decided to create a map to help track down the
 •	Recommendation on where we will capture Big Foot!
 
 Database Source:   https://data.world/timothyrenner/bfro-sightings-data 
+
+![Data](images/data.png)
  
 Inspiration Screenshots:
 
-![Data](images/data.png)
+![Inspiration Pic 1](images/pic1.png)![Inspiration Pic 2](images/pic2.png)![Inspiration Pic 3](images/pic3.png)
 
 Sketch of final presentation: 
 
-![Inspiration Pic 1](images/pic1.png)
-
-![Inspiration Pic 2](images/pic2.png)
-
-![Inspiration Pic 3](images/pic3.png)
+![Final Project Pic 1](images/pic4.png)
  
 Github Repository Link: 
