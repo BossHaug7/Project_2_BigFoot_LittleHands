@@ -20,4 +20,4 @@ Sketch of final presentation:
 
 ![Final Project Pic 1](images/pic4.png)
  
-Github Repository Link: 
+Github Repository Link: https://github.com/BossHaug7/Project_2_BigFoot_LittleHands/tree/master 
