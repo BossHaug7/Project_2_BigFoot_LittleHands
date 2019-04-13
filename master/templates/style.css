@@ -65,7 +65,9 @@
             transform: translateX(0);
 }
 
-span
+span .un,
+span .break,
+span .able
 {
     font-family: 'ghost_reverieregular';
     font-size: 50px;
@@ -158,7 +160,7 @@ body {
   backface-visibility: hidden;
 }
 
-span {
+.un, .break, .able {
   text-shadow: 0 0 0 whitesmoke;
   animation: smoky 5s 3s both;
 }
@@ -314,4 +316,19 @@ html, body{
   }
 }
 
+#map {
+  position: absolute;
+  height: 95%;
+  width: 90%;
+  top: 7%;
+  left: 5%;
+  text-align: left;
+}
 
+#plot {
+  position: relative;
+  height: 75%;
+  width: 75%;
+  top: 10%;
+  left: 15%
+}
