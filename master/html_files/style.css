@@ -8,25 +8,7 @@
          url('WebFont.ttf') format('truetype'),
          url('WebFont.svg#webfont') format('svg');
 }
-/* body, html {
-   width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-   
-  } */
-/* background image setup */
-  /* .bg {
-    margin: 0;
-    padding: 0;
-    background-image: url(https://covervault.com/wp-content/uploads/2015/11/008-Mystery-Forest_Preview3.jpg);
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+/* title animation */
 .unbreakable-container
 {
   position: absolute;
@@ -65,7 +47,7 @@
             transform: translateX(0);
 }
 
-span
+.un, .break, .able 
 {
     font-family: 'ghost_reverieregular';
     font-size: 50px;
@@ -132,19 +114,7 @@ span
     filter: alpha(opacity=100);
 }
 
-/* smoke animation code */
-/* * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-  } */
-  /* html, body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  } */
-
-/* title smoke text effect */
+/* title smoke disappear text effect */
 @import "compass/css3";
 
 @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
@@ -158,7 +128,7 @@ body {
   backface-visibility: hidden;
 }
 
-span {
+.un, .break, .able {
   text-shadow: 0 0 0 whitesmoke;
   animation: smoky 5s 3s both;
 }
@@ -314,4 +284,19 @@ html, body{
   }
 }
 
+#map{
+  position: absolute;
+  top: 8%;
+  height: 60%;
+  width: 85%;
+  left: 8%;
+  
+}
+#plot{
+  position: absolute;
+  bottom: 8%;
+  height: 60%;
+  width: 85%;
+  left: 8%;
+}
 
