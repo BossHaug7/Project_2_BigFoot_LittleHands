@@ -1,11 +1,16 @@
-d3.csv("bfro_reports_geocoded.csv", function(error, bfData) {
-  if (error) throw error;
+var url = "/test";
+console.log(url);
 
-  console.log([bfData]);
+d3.json(url, function(error, bfData) {
+// d3.csv("bfro_reports_geocoded.csv", function(error, bfData) {
+  if (error) throw error;
+  console.log(bfData);
+ 
+  // console.log([bfData]);
 
   var sightings = []
 
-  
+  // Format the data
   bfData.forEach(function(data) {
     data.latitude = +data.latitude;
     data.longitude = +data.longitude;
