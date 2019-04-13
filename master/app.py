@@ -4,6 +4,7 @@ import pandas as pd
 
 from flask import (
     Flask,
+    url_for,
     render_template,
     jsonify)
 
@@ -42,8 +43,11 @@ def setup():
 # Create a route that renders index.html template
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index1.html")
 
+@app.route("/2")
+def home2():
+    return render_template("index2.html")    
 
 # Query the database and return the jsonified results
 @app.route("/data")

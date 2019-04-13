@@ -47,7 +47,13 @@
             transform: translateX(0);
 }
 
+<<<<<<< HEAD:master/html_files/style.css
 .un, .break, .able 
+=======
+span .un,
+span .break,
+span .able
+>>>>>>> f01e636c2a25b4e2cd8b330ddc4791edb964b73e:master/templates/style.css
 {
     font-family: 'ghost_reverieregular';
     font-size: 50px;
@@ -284,6 +290,7 @@ html, body{
   }
 }
 
+<<<<<<< HEAD:master/html_files/style.css
 #map{
   position: absolute;
   top: 8%;
@@ -298,5 +305,21 @@ html, body{
   height: 60%;
   width: 85%;
   left: 8%;
+=======
+#map {
+  position: absolute;
+  height: 95%;
+  width: 90%;
+  top: 7%;
+  left: 5%;
+  text-align: left;
+>>>>>>> f01e636c2a25b4e2cd8b330ddc4791edb964b73e:master/templates/style.css
 }
 
+#plot {
+  position: relative;
+  height: 75%;
+  width: 75%;
+  top: 10%;
+  left: 15%
+}

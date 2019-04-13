@@ -51,7 +51,7 @@ d3.csv("../datasets/bfro_reports_geocoded.csv", function(error, bfData) {
   };
 
   var myMap = L.map("map", {
-    center: [38.128, -98.0059],
+    center: [38.128, -97.0059],
     zoom: 5,
     layers: [outdoormap, satellitemap, bfLayer]
   });
