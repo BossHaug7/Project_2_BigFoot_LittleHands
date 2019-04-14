@@ -1,4 +1,4 @@
-d3.csv("../datasets/bfro_reports_geocoded.csv", function(error, bfData) {
+d3.csv("../static/bfro_reports_geocoded.csv", function(error, bfData) {
   if (error) throw error;
 
   console.log(bfData);
