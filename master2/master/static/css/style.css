@@ -179,10 +179,10 @@ ul {
   padding: 0;
   display: flex;
 }
-#center-btn
+#Discover
 {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 40%;
   transform: translate(-50%, -50%);
     font-family: 'ghost_reverieregular';
@@ -200,14 +200,58 @@ ul {
     border: none;
     background-color: transparent;
 }
-#sub-center-btn{
-  font-size: 20px;
+.animate #Discover
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+#center-btn
+{
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+    font-family: 'ghost_reverieregular';
+    font-size: 40px;
+    line-height: 1;
+    margin-top: -11px; 
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s cubic-bezier(.190, 1.000, .220, 1.000) 4s;
+    -webkit-transform: translateX(-1000%); 
+         -ms-transform: translateX(-1000%);
+            transform: translateX(-1000%);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: transparent;
 }
 .animate #center-btn
 {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
             transform: translateX(0);
+}
+#sub-btn1 {
+  font-family: 'ghost_reverieregular';
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+}
+#sub-btn2 {
+  font-family: 'ghost_reverieregular';
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: transparent;
 }
 #back-btn
 {

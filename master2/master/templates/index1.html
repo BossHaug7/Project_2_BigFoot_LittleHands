@@ -34,14 +34,24 @@
           <div class="ks">Bigfoot</div>
         </div>
     
-      <button id="center-btn" class="btn Discover" onclick="btnFunction()">Discover
-         <h1 id="sub-center-btn">Click Here</h1>
-      </button>
-      <script>
-        function btnFunction() {
-          location.replace("/2")
-          }
-      </script>
+     
+  <div id="Discover" class="Discover">Discover</div>
+  <!-- button group -->
+  <div id="center-btn" class="btn-group">
+    <button id="sub-btn1" class="btn-sub" onclick="btnFunction()">Geo Map</button>
+    <script>
+      function btnFunction() {
+        location.replace("/2")
+      }
+    </script>
+     <button id="sub-btn2" class="btn-sub" onclick="btnFunction()">Sightings Graph</button>
+     <script>
+       function btnFunction() {
+         location.replace("/3")
+       }
+     </script>
+  </div>
+  
     <!-- </div> -->
 </body>
   <script type="text/javascript" src="../static/js/animationapp.js"></script>
