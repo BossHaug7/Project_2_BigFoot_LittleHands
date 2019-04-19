@@ -2,10 +2,8 @@
 var url = "/data";
 
 function buildPlot() {
-  // d3.json(url).then(function(response) {
-    d3.json(url, function(response){
-
-    
+  d3.json(url).then(function(response) {
+    // d3.json(url, function(response){    
 
     console.log(response);
     var trace = {

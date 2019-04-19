@@ -12,7 +12,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///bigfoot.sqlite"
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///static/bigfoot.sqlite"
 
 db = SQLAlchemy(app)
 
@@ -61,13 +61,6 @@ def data():
         group_by(func.strftime("%Y", Bigfoot.timestamp)).all()
     df = pd.DataFrame(results, columns=['year', 'sightings'])
     return jsonify(df.to_dict(orient="records"))
-
-# @app.route("/map")
-# def map():
-#     sel = [Bigfoot.latitude, Bigfoot.longitude]
-#     df = pd.DataFrame(sel, columns=['latitude', 'longitude'])
-#     return jsonify(df.to_dict(orient="records"))    
-
 
 if __name__ == "__main__":
     app.run(debug=True)
