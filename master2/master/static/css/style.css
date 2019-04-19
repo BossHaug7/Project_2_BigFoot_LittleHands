@@ -267,6 +267,30 @@ ul {
   border: none;
   background-color: transparent;
 }
+/* button highlight effect */
+#sub-btn1:hover {
+  border: solid 1px #2A4E77;
+	text-decoration: none;
+}
+#sub-btn1:active {
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	background: #2E5481;
+	border: solid 1px #203E5F;
+}
+#sub-btn2:hover {
+	border: solid 1px #2A4E77;
+	text-decoration: none;
+}
+#sub-btn2:active {
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	background: #2E5481;
+	border: solid 1px #203E5F;
+}
+
 /* fog animation */
 html, body{
   margin: 0;
