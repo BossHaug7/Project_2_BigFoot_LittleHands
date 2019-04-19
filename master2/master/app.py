@@ -47,7 +47,11 @@ def home():
 
 @app.route("/2")
 def home2():
-    return render_template("index2.html")    
+    return render_template("map.html")   
+
+@app.route("/3")
+def home3():
+    return render_template("chart.html")  
 
 # Query the database and return the jsonified results
 @app.route("/data")
